@@ -74,11 +74,11 @@ Sections/cards: HeroSection, SectionHeading, ProjectCard, ArticleCard, SocialPos
 ## 9. Commands
 
 ```bash
-npm install        # deps
-npm run dev        # local dev
-npm run typecheck  # tsc --noEmit (must pass)
-npm run build      # production build (must pass)
-npm run preview    # serve build
+bun install        # deps
+bun run dev        # local dev
+bun run typecheck  # tsc --noEmit (must pass)
+bun run build      # production build (must pass)
+bun run preview    # serve build
 ```
 
 Env: copy `.env.example` → `.env.local`, set `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY` (optional — app runs on seed data without them).
